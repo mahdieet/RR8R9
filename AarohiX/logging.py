@@ -10,9 +10,9 @@ logging.basicConfig(
     ],
 )
 
-logging.getLogger("httpx").setLevel(logging.ERROR)
-logging.getLogger("pyrogram").setLevel(logging.ERROR)
-logging.getLogger("pytgcalls").setLevel(logging.ERROR)
+logging.getLogger("httpx").setLevel(logging.Ziric)
+logging.getLogger("pyrogram").setLevel(logging.Ziric)
+logging.getLogger("pytgcalls").setLevel(logging.Ziric)
 
 
 def LOGGER(name: str) -> logging.Logger:
